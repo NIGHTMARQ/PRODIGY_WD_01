@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedsec | United World of Hackers and Activists</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Heebo:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <link rel="stylesheet" href="land.css">
+</head>
+<body>
+    <header id="top" class="code-section font-['Poppins']">
+        <nav class="container mx-auto px-6 py-10">
+            <div class="flex items-center justify-between">
+                <div class="text-xl font-bold">
+                    <a id="nav-name-text" class="primary-color-text lg:text-3xl text-stone-400 text-2xl animate-glitch text-blue-400" href="/">Dedsec</a>
+                </div>
+                <div id="nav-links" class="hidden items-center space-x-8 text-sm md:flex lg:text-base">
+                    <a href="/#how-it-works" class="how-it-works-link text-gray-800">How it Works</a>
+                    <a href="/#pricing" class="pricing-link text-gray-800">Pricing</a>
+                    <a href="/#blog" class="blog-link text-gray-800">Blog</a>
+                </div>
+                <div id="nav-cta" class="hidden items-center space-x-4 text-sm md:flex lg:text-base">
+                    <div id="nav-cta-login-buttons" class="invisible">
+                        <a href="/login" class="px-4 py-2 text-gray-800">Log In</a>
+                        <a href="/signup" class="primary-color-bg rounded px-4 py-2 text-white bg-stone-400">Sign Up</a>
+                    </div>
+                </div>
+                <div id="mobile-menu-icon" class="flex items-center md:hidden">
+                    <button class="text-gray-800" aria-label="Navigation Dropdown Menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                            <line x1="3" y1="12" x2="21" y2="12" class=""></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18" class=""></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="nav-links-mobile" class="mt-4 hidden md:hidden">
+                <div class="relative z-10 flex flex-col space-y-2 bg-white pb-4 text-center text-lg">
+                    <a href="/#how-it-works" class="how-it-works-link text-gray-800">How it Works</a>
+                    <a href="/#pricing" class="pricing-link text-gray-800">Pricing</a>
+                    <a href="/#blog" class="blog-link text-gray-800">Blog</a>
+                    <div id="nav-mobile-cta-login-buttons" class="hidden flex-col space-y-2 pt-4">
+                        <a href="/login" class="px-4 py-2 text-gray-800">Log In</a>
+                        <a href="/signup" class="primary-color-bg rounded px-4 py-2 text-white bg-stone-400">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="code-section bg-gradient-to-b from-white to-[#F2F9FF] font-['Poppins'] lg:py-2" id="abnob">
+        <div class="container mx-auto mb-24 px-6">
+            <div class="flex flex-col-reverse items-center lg:flex-row">
+                <div class="mt-12 w-full lg:mt-32 lg:w-[45%] lg:pr-14">
+                    <h1 id="hero-header-text" class="mb-4 text-center text-4xl font-bold lg:text-left lg:text-5xl xl:text-6xl">Unite, Hack, Empower</h1>
+                    <p id="hero-subtext" class="mb-14 text-center text-xl text-gray-700 lg:text-left">Join the world of Dedsec, where hackers, activists, and truth-seekers become one in creating a new reality, unravelling truth and fostering an empowered community.</p>
+                    <div id="hero-waitlist-input" class="relative mb-12">
+                        <input type="email" class="mb-2 w-full rounded border border-white py-4 pl-6 placeholder-gray-600 xl:mb-0 xl:py-6 xl:pr-20" placeholder="Enter your email address">
+                        <button class="xl:py-23 primary-color-bg h-[52px] w-full rounded px-5 text-lg font-semibold text-white xl:absolute xl:inset-y-0 xl:right-1 xl:top-1/2 xl:mr-4 xl:w-auto xl:-translate-y-1/2 xl:transform bg-stone-400 hover:bg-stone-500">Join waiting list</button>
+                    </div>
+                    <div id="hero-cta-button" class="mb-12 hidden">
+                        <a href="/" class="primary-color-bg items-center rounded px-5 py-3 text-lg font-semibold text-white bg-stone-400 hover:bg-stone-500">
+                            <span id="hero-cta-button-text">Join Us Now</span>
+                        </a>
+                    </div>
+                    <div id="testimonial-1" class="flex items-center pb-10">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHwxfHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Happy Customer" class="testimonial-image dont-replace mr-4 h-[72px] w-[72px] rounded-full object-cover" data-media="{&quot;id&quot;:&quot;wD1LRb9OeEo&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-quote-left relative -top-2 mr-1"></i>
+                            <p id="testimonial-1-quote" class="mb-2 inline text-lg text-gray-700">Dedsec's community has empowered me to use my hacking skills for a greater purpose.</p>
+                            <i class="fa-sharp fa-solid fa-quote-right relative -top-2 ml-1"></i>
+                            <p>
+                                <span id="testimonial-1-name" class="font-semibold text-gray-900">Jane Doe</span>
+                                <span id="testimonial-1-job" class="primary-color-text pl-2 font-semibold text-stone-400">Network Security Analyst</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative w-full lg:w-[55%] lg:pl-6 2xl:mt-0">
+                    <img src="https://images.unsplash.com/photo-1557804483-ef3ae78eca57?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHwyfHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Hero" class="seo-image mt-8 h-auto w-[100%] shadow-xl shadow-blue-100 lg:mt-0" data-media="{&quot;id&quot;:&quot;7KsyY-Ed7B8&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="logo-section" class="code-section font-['Poppins'] md:py-20">
+        <div class="container mx-auto px-6">
+            <h2 id="logo-cloud-header" class="mb-12 text-center text-lg font-medium uppercase tracking-widest">Our Proud Partners</h2>
+            <div id="logo-cloud-images" class="flex flex-wrap items-center justify-center gap-x-4 gap-y-4 md:gap-x-24">
+                <img src="https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/logo1.png" alt="Logo 1" class="dont-replace h-12">
+                <img src="https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/logo2.png" alt="Logo 2" class="dont-replace h-12">
+                <img src="https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/logo3.png" alt="Logo 3" class="dont-replace h-12">
+                <img src="https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/logo4.png" alt="Logo 4" class="dont-replace h-12">
+                <img src="https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/logo5.png" alt="Logo 5" class="dont-replace h-12">
+                <img src="https://landingsite-static-web-images.s3.us-east-2.amazonaws.com/logo6.png" alt="Logo 6" class="dont-replace h-12">
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works" class="code-section py-20 font-['Poppins']">
+        <div class="container mx-auto px-6">
+            <h2 id="hiw-header" class="mb-6 text-center text-6xl font-bold">How Dedsec Works</h2>
+            <h3 id="hiw-subtext" class="mb-12 text-center text-xl text-gray-700">Transform your passion for hacking into a pursuit of truth with Dedsec. Here's how you can join and contribute to the community.</h3>
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                <div id="hiw-step-1" class="flex-1 rounded-3xl bg-white p-8 text-center shadow-lg shadow-blue-100 md:max-w-xs md:p-12">
+                    <div id="hiw-step-1-circle" class="primary-color-bg primary-color-[50] mx-auto mb-12 flex h-20 w-20 items-center justify-center rounded-full text-4xl bg-stone-50">
+                        <span class="primary-color-gradient primary-color-from-[200] primary-color-to-[500] bg-gradient-to-b bg-clip-text text-transparent from-stone-200 to-stone-500">1</span>
+                    </div>
+                    <h4 id="hiw-step-1-header" class="mb-2 text-2xl font-semibold">Sign Up</h4>
+                    <p id="hiw-step-1-text" class="text-gray-700">Registration is simple and quick. Complete the sign-up step to join our community and start connecting with like-minded individuals. Your identity remains anonymous, ensuring your safety and privacy.</p>
+                </div>
+                <div id="hiw-step-2" class="flex-1 rounded-3xl bg-white p-8 text-center shadow-lg shadow-blue-100 md:max-w-xs md:p-12">
+                    <div id="hiw-step-2-circle" class="primary-color-bg primary-color-[50] mx-auto mb-12 flex h-20 w-20 items-center justify-center rounded-full text-4xl bg-stone-50">
+                        <span class="primary-color-gradient primary-color-from-[200] primary-color-to-[500] bg-gradient-to-b bg-clip-text text-transparent from-stone-200 to-stone-500">2</span>
+                    </div>
+                    <h4 id="hiw-step-2-header" class="mb-2 text-2xl font-semibold">Complete Challenges</h4>
+                    <p id="hiw-step-2-text" class="text-gray-700">As a member, you’ll be tasked with various hacking challenges that test your skills and expand your learning. These challenges also contribute to our collective goal of uncovering hidden truths and promoting transparency.</p>
+                </div>
+                <div id="hiw-step-3" class="flex-1 rounded-3xl bg-white p-8 text-center shadow-lg shadow-blue-100 md:max-w-xs md:p-12">
+                    <div id="hiw-step-3-circle" class="primary-color-bg primary-color-[50] mx-auto mb-12 flex h-20 w-20 items-center justify-center rounded-full text-4xl bg-stone-50">
+                        <span class="primary-color-gradient primary-color-from-[200] primary-color-to-[500] bg-gradient-to-b bg-clip-text text-transparent from-stone-200 to-stone-500">3</span>
+                    </div>
+                    <h4 id="hiw-step-3-header" class="mb-2 text-2xl font-semibold">Earn Reputation Points</h4>
+                    <p id="hiw-step-3-text" class="text-gray-700">Gain recognition from your peers by collecting reputation points. These are earned by completing challenges, engaging with the community, and imparting knowledge and skills.</p>
+                </div>
+                <div id="hiw-step-4" class="flex-1 rounded-3xl bg-white p-8 text-center shadow-lg shadow-blue-100 md:max-w-xs md:p-12">
+                    <div id="hiw-step-4-circle" class="primary-color-bg primary-color-[50] mx-auto mb-12 flex h-20 w-20 items-center justify-center rounded-full text-4xl bg-stone-50">
+                        <span class="primary-color-gradient primary-color-from-[200] primary-color-to-[500] bg-gradient-to-b bg-clip-text text-transparent from-stone-200 to-stone-500">4</span>
+                    </div>
+                    <h4 id="hiw-step-4-header" class="mb-2 text-2xl font-semibold">Activate Impact</h4>
+                    <p id="hiw-step-4-text" class="text-gray-700">Use your hacking skills and the strength of the Dedsec community to reveal the truth, fight injustice, and catalyze change, making a real-world impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="code-section font-['Poppins']" id="kyndrc">
+        <div class="container mx-auto px-6 lg:pt-24">
+            <div id="hero-rtl" class="flex flex-col items-stretch lg:flex-row">
+                <div class="primary-color-bg primary-color-[50] flex flex-1 items-center justify-center rounded-3xl p-6 lg:w-1/2 bg-stone-50">
+                    <img class="mx-auto rounded-3xl" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHwzfHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Hero" data-media="{&quot;id&quot;:&quot;nF8xhLMmg0c&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                </div>
+                <div class="pt-8 lg:w-1/2 lg:pl-20 lg:pr-12 lg:pt-0">
+                    <h2 id="hero-rtl-header" class="mb-4 text-center text-3xl font-bold lg:text-left lg:text-5xl">Why Join Dedsec?</h2>
+                    <p id="hero-rtl-subtext" class="mb-6 text-center text-xl text-gray-500 lg:text-left">Our community transcends geographical boundaries, unified by a shared commitment to truth, justice, and technological empowerment. Here's what you gain with Dedsec.</p>
+                    <ul id="hero-rtl-list" class="mb-12 list-disc pl-6 text-xl">
+                        <li>Access to a worldwide network of skilled hackers</li>
+                        <li>Ongoing growth and learning opportunities</li>
+                        <li>A platform to make a real-world difference</li>
+                        <li>Community support and camaraderie</li>
+                    </ul>
+                    <div class="flex justify-center lg:block">
+                        <a href="/" id="hero-rtl-cta" class="primary-color-bg mb-12 inline-block rounded px-12 py-4 text-lg font-medium text-white bg-stone-400 hover:bg-stone-500">Discover More</a>
+                    </div>
+                    <div id="testimonial-2" class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHw0fHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Profile" class="testimonial-image dont-replace mr-4 h-[72px] w-[72px] rounded-full object-cover" data-media="{&quot;id&quot;:&quot;TamMbr4okv4&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-quote-left relative -top-2 mr-1"></i>
+                            <p id="testimonial-2-quote" class="mb-2 inline text-lg text-gray-700">Being part of Dedsec has given me a sense of purpose that I never found in my everyday job.</p>
+                            <i class="fa-sharp fa-solid fa-quote-right relative -top-2 ml-1"></i>
+                            <p>
+                                <span id="testimonial-2-name" class="font-semibold text-gray-900">Jane Doe</span>
+                                <span id="testimonial-2-job" class="primary-color-text pl-2 font-semibold text-stone-400">Software Engineer</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="code-section font-['Poppins']" id="ax75n7">
+        <div class="container mx-auto px-6 pb-12 pt-12 lg:pt-24">
+            <div id="hero-ltr" class="flex flex-col-reverse items-stretch lg:flex-row">
+                <div class="lg:w-1/2 lg:pr-20">
+                    <h2 id="hero-ltr-header" class="mb-4 text-center text-3xl font-bold sm:text-5xl lg:text-left">Get Involved</h2>
+                    <p id="hero-ltr-subtext" class="mb-6 text-center text-xl text-gray-500 lg:text-left">Dedsec offers a wide range of opportunities for involvement, from participating in hacking challenges to engaging in our thriving forum discussions.</p>
+                    <ul id="hero-ltr-list" class="mb-12 list-disc pl-8 text-xl">
+                        <li>Join thought-provoking forum discussions</li>
+                        <li>Take part in monthly hacking challenges</li>
+                        <li>Share your expertise through tutorials</li>
+                        <li>Collaborate on global hacking projects</li>
+                    </ul>
+                    <div class="flex justify-center lg:block">
+                        <a href="/" id="hero-ltr-cta" class="primary-color-bg mb-12 inline-block rounded px-12 py-4 text-lg font-medium text-white bg-stone-400 hover:bg-stone-500">Start Hacking</a>
+                    </div>
+                    <div id="testimonial-3" class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1460518451285-97b6aa326961?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHw1fHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Profile" class="testimonial-image dont-replace mr-4 h-[72px] w-[72px] rounded-full object-cover" data-media="{&quot;id&quot;:&quot;omeaHbEFlN4&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-quote-left relative -top-2 mr-1"></i>
+                            <p id="testimonial-3-quote" class="mb-2 inline text-lg text-gray-700">Thanks to Dedsec, I have grown tremendously as an ethical hacker. I couldn't imagine a better community to be part of.</p>
+                            <i class="fa-sharp fa-solid fa-quote-right relative -top-2 ml-1"></i>
+                            <p>
+                                <span id="testimonial-3-name" class="font-semibold text-gray-900">Jane Doe</span>
+                                <span id="testimonial-3-job" class="primary-color-text pl-2 font-semibold text-stone-400">Cybersecurity Student</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="primary-color-bg primary-color-[50] mb-4 flex flex-1 items-center justify-center rounded-3xl p-6 lg:w-1/2 bg-stone-50">
+                    <img class="mx-auto rounded-3xl" src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHw2fHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Hero" data-media="{&quot;id&quot;:&quot;oqStl2L5oxI&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features-section" class="code-section font-['Poppins']">
+        <div class="container mx-auto px-6 py-6 md:py-12">
+            <div class="primary-color-gradient primary-color-from-[50] primary-color-to-[100] rounded-3xl bg-gradient-to-b px-4 py-8 md:py-40 from-stone-50 to-stone-100">
+                <h2 id="features-header" class="mx-auto mb-4 max-w-4xl text-center text-3xl font-bold md:text-6xl">Dedsec Features</h2>
+                <p id="features-subtext" class="mb-8 text-center text-xl text-gray-500">Joining Dedsec gives you access to a plethora of features designed to enrich your hacking skills and amplify your impact.</p>
+            </div>
+            <div class="-mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-4 px-4 lg:-mt-36 lg:grid lg:flex-none lg:grid-cols-3 lg:place-items-center lg:items-stretch lg:gap-y-12">
+                <div id="feature-1" class="max-w-sm flex-1 rounded-3xl bg-white p-14 text-center shadow-xl shadow-blue-100">
+                    <div id="feature-1-circle" class="primary-color-bg primary-color-[50] mx-auto mb-4 mt-2 flex h-20 w-20 items-center justify-center rounded-full text-4xl bg-stone-50">
+                        <span id="feature-1-icon" class="primary-color-gradient primary-color-from-[200] primary-color-to-[500] bg-gradient-to-b bg-clip-text text-transparent from-stone-200 to-stone-500">
+                            <i class="fa fa-user-secret"></i>
+                        </span>
+                    </div>
+                    <h4 id="feature-1-header" class="mb-6 text-3xl font-semibold">Privacy Protection</h4>
+                    <p id="feature-1-text" class="text-gray-700">We understand the importance of online privacy. At Dedsec, we ensure your identity remains anonymous, and your data is secure from external threats.</p>
+                </div>
+                <div id="feature-2" class="max-w-sm flex-1 rounded-3xl bg-white p-14 text-center shadow-xl shadow-blue-100">
+                    <div id="feature-2-circle" class="primary-color-bg primary-color-[50] mx-auto mb-4 mt-2 flex h-20 w-20 items-center justify-center rounded-full text-4xl bg-stone-50">
+                        <span id="feature-2-icon" class="primary-color-gradient primary-color-from-[200] primary-color-to-[500] bg-gradient-to-b bg-clip-text text-transparent from-stone-200 to-stone-500">
+                            <i class="fa fa-rocket"></i>
+                        </span>
+                    </div>
+                    <h4 id="feature-2-header" class="mb-6 text-3xl font-semibold">Skill Enhancement</h4>
+                    <p id="feature-2-text" class="text-gray-700">Whether you're avoiding a watchdog's firewall or infiltrating a heavily encrypted database, Dedsec's multitude of challenges provide effective skill enhancement for every hacker.</p>
+                </div>
+                <div id="feature-3" class="max-w-sm flex-1 rounded-3xl bg-white p-14 text-center shadow-xl shadow-blue-100">
+                    <div id="feature-3-circle" class="primary-color-bg primary-color-[50] mx-auto mb-4 mt-2 flex h-20 w-20 items-center justify-center rounded-full text-4xl bg-stone-50">
+                        <span id="feature-3-icon" class="primary-color-gradient primary-color-from-[200] primary-color-to-[500] bg-gradient-to-b bg-clip-text text-transparent from-stone-200 to-stone-500">
+                            <i class="fa fa-users"></i>
+                        </span>
+                    </div>
+                    <h4 id="feature-3-header" class="mb-6 text-3xl font-semibold">Communal Impact</h4>
+                    <p id="feature-3-text" class="text-gray-700">Dedsec empowers its community to delve into the dark corners of the web, uncovering truth and injustice. Be part of a collective that's making a tangible difference transcend the online world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="code-section font-['Poppins']">
+        <div class="container mx-auto px-6 py-12">
+            <h2 id="pricing-header" class="mb-4 text-center text-3xl font-bold sm:px-40 sm:text-6xl">Membership Plans</h2>
+            <p id="pricing-subtext" class="text-center text-xl text-gray-500 sm:mb-16">Choose from our flexible and competitive plans that best fit your hacking ambitions.</p>
+            <div class="flex flex-col lg:flex-row">
+                <div id="pricing-plan-1" class="my-6 flex-1 rounded-3xl bg-white px-4 py-12 text-center shadow-lg shadow-blue-100 sm:mx-6 sm:px-10">
+                    <h4 id="pricing-plan-1-title" class="mb-4 text-4xl font-semibold">Novice Hacker</h4>
+                    <p id="pricing-plan-1-text" class="mb-8 font-light text-gray-700 xl:text-xl">Perfect for beginners starting their hacking journey.</p>
+                    <p id="pricing-plan-1-price" class="primary-color-text mb-2 text-6xl font-bold text-stone-400">$20</p>
+                    <p id="pricing-plan-1-pricing-subtext" class="mb-9 text-lg font-light uppercase text-gray-700">per month</p>
+                    <a id="pricing-plan-1-button" href="/" class="mx-auto mb-11 block w-2/3 rounded border border-gray-800 bg-white py-4 font-semibold uppercase text-gray-800">Get Started</a>
+                    <ul id="pricing-plan-1-features" class="space-y-3 font-light">
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-1-features-1" class="text-left text-lg text-gray-600">Access to Basic Challenges</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-1-features-2" class="text-left text-lg text-gray-600">Participation in Forum Discussions</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-1-features-3" class="text-left text-lg text-gray-600">2 Reputation Points per Challenge</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-1-features-4" class="text-left text-lg text-gray-600">Basic Member Badge</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-1-features-5" class="text-left text-lg text-gray-600">Monthly Newsletter</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-1-features-6" class="text-left text-lg text-gray-600">Limited Resource Access</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-1-features-7" class="text-left text-lg text-gray-600">24/7 Community Support</span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="pricing-plan-2" class="primary-color-bg relative my-6 flex-1 rounded-3xl px-4 py-12 text-center text-white shadow-lg shadow-blue-100 sm:mx-6 sm:px-10 bg-stone-400">
+                    <div id="pricing-plan-2-most-popular" class="absolute -top-6 left-1/4 mb-2 flex h-[54px] w-1/2 items-center justify-center rounded bg-black px-2 py-1 text-center text-xl font-semibold uppercase">Most Popular</div>
+                    <h4 id="pricing-plan-2-title" class="mb-4 text-4xl font-semibold">Advanced Hacker</h4>
+                    <p id="pricing-plan-2-text" class="mb-8 font-light xl:text-xl">Designed for experienced hackers seeking a challenge.</p>
+                    <p id="pricing-plan-2-price" class="mb-3 text-6xl font-bold">$50</p>
+                    <p id="pricing-plan-2-pricing-subtext" class="mb-9 text-lg font-light uppercase">per month</p>
+                    <a id="pricing-plan-2-button" href="/" class="mx-auto mb-11 block w-2/3 rounded bg-white py-4 font-semibold uppercase text-gray-800">Upgrade Now</a>
+                    <ul id="pricing-plan-2-features" class="space-y-3 font-light text-white">
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl ml-1 mr-4"></i>
+                            <span id="pricing-plan-2-features-1" class="text-left text-lg">Access to Advanced Challenges</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl ml-1 mr-4"></i>
+                            <span id="pricing-plan-2-features-2" class="text-left text-lg">Access to All Forums</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl ml-1 mr-4"></i>
+                            <span id="pricing-plan-2-features-3" class="text-left text-lg">5 Reputation Points per Challenge</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl ml-1 mr-4"></i>
+                            <span id="pricing-plan-2-features-4" class="text-left text-lg">Advanced Member Badge</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl ml-1 mr-4"></i>
+                            <span id="pricing-plan-2-features-5" class="text-left text-lg">Weekly Newsletter</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl ml-1 mr-4"></i>
+                            <span id="pricing-plan-2-features-6" class="text-left text-lg">Unlimited Resource Access</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl ml-1 mr-4"></i>
+                            <span id="pricing-plan-2-features-7" class="text-left text-lg">Priority Community Support</span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="pricing-plan-3" class="my-6 flex-1 rounded-3xl bg-white px-4 py-12 text-center shadow-lg shadow-blue-100 sm:mx-6 sm:px-10">
+                    <h4 id="pricing-plan-3-title" class="mb-4 text-4xl font-semibold">Elite Hacker</h4>
+                    <p id="pricing-plan-3-text" class="mb-8 font-light text-gray-700 xl:text-xl">Exclusive to hacking experts leading the community.</p>
+                    <p id="pricing-plan-3-price" class="primary-color-text mb-3 text-6xl font-bold text-stone-400">$100</p>
+                    <p id="pricing-plan-3-pricing-subtext" class="mb-9 text-lg font-light uppercase text-gray-700">per month</p>
+                    <a id="pricing-plan-3-button" href="/" class="mx-auto mb-11 block w-2/3 rounded border border-gray-800 bg-white py-4 font-semibold uppercase text-gray-800">Join the Elite</a>
+                    <ul id="pricing-plan-3-features" class="space-y-3 font-light">
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-3-features-1" class="text-left text-lg text-gray-600">All-Challenge Access</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-3-features-2" class="text-left text-lg text-gray-600">Exclusive Forums Access</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-3-features-3" class="text-left text-lg text-gray-600">10 Reputation Points per Challenge</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-3-features-4" class="text-left text-lg text-gray-600">Elite Member Badge</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-3-features-5" class="text-left text-lg text-gray-600">Premium Newsletter</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-3-features-6" class="text-left text-lg text-gray-600">Premium Resource Access</span>
+                        </li>
+                        <li class="flex min-h-[28px] items-center">
+                            <i class="fa-regular fa-circle-check fa-xl primary-color-text ml-1 mr-4 text-stone-400"></i>
+                            <span id="pricing-plan-3-features-7" class="text-left text-lg text-gray-600">Premium Community Support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="code-section font-['Poppins']">
+        <div class="container mx-auto px-4 py-12">
+            <h2 id="blog-posts-header" class="mb-6 text-center text-3xl font-bold sm:text-6xl">From the Blog</h2>
+            <p id="blog-posts-subtext" class="mx-auto mb-8 max-w-4xl text-center text-lg font-light text-gray-700 sm:text-xl">Stay updated with news, insights, and stories from the Dedsec community.</p>
+            <div id="blog-posts-cards" class="flex flex-col md:flex-row">
+                <div id="blog-post-1" class="m-6 flex-1 rounded-3xl bg-white p-4 shadow-lg shadow-blue-50">
+                    <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHw3fHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Blog" class="h-64 w-full rounded-3xl object-cover" data-media="{&quot;id&quot;:&quot;e3OUQGT9bWU&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                    <div class="px-4 py-6">
+                        <p id="blog-post-1-date" class="primary-color-text mb-2 uppercase text-stone-400">15 JUN 2023</p>
+                        <h3 id="blog-post-1-header" class="mb-2 text-3xl font-medium">The Ethical Hacker's Guide to Privacy</h3>
+                        <p id="blog-post-1-summary" class="mb-4 text-lg font-light text-gray-700">Uncover the importance of privacy in the realm of ethical hacking and ways to safeguard it.</p>
+                        <a href="/" class="primary-color-text flex items-center uppercase hover:underline text-stone-400">
+                            View Post <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="blog-post-2" class="m-6 flex-1 rounded-3xl bg-white p-4 shadow-lg shadow-blue-50">
+                    <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHw4fHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Blog" class="h-64 w-full rounded-3xl object-cover" data-media="{&quot;id&quot;:&quot;tvc5imO5pXk&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                    <div class="px-4 py-6">
+                        <p id="blog-post-2-date" class="primary-color-text mb-2 uppercase text-stone-400">10 JUN 2023</p>
+                        <h3 id="blog-post-2-header" class="mb-2 text-3xl font-medium">Truth in the Age of Information</h3>
+                        <p id="blog-post-2-summary" class="mb-4 text-lg font-light text-gray-700">Explore how Dedsec tactfully uses hacking to unveil hidden truths in the digital world.</p>
+                        <a href="/" class="primary-color-text flex items-center uppercase hover:underline text-stone-400">
+                            View Post <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="blog-post-3" class="m-6 flex-1 rounded-3xl bg-white p-4 shadow-lg shadow-blue-50">
+                    <img src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHw5fHwlMjJIYWNraW5nJTIwQ29tbXVuaXR5JTIyfGVufDB8MHx8fDE2OTYxMDY0MTR8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="Blog" class="h-64 w-full rounded-3xl object-cover" data-media="{&quot;id&quot;:&quot;ukzHlkoz1IE&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+                    <div class="px-4 py-6">
+                        <p id="blog-post-3-date" class="primary-color-text mb-2 uppercase text-stone-400">1 JUN 2023</p>
+                        <h3 id="blog-post-3-header" class="mb-2 text-3xl font-medium">Beginner's Guide to Ethical Hacking</h3>
+                        <p id="blog-post-3-summary" class="mb-4 text-lg font-light text-gray-700">Dive into the fundamentals of ethical hacking and kickstart your hacking journey with Dedsec.</p>
+                        <a href="/" class="primary-color-text flex items-center uppercase hover:underline text-stone-400">
+                            View Post <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="code-section mt-12 bg-gray-50 py-12 font-['Poppins']" id="p6dus">
+        <div id="cta" class="container mx-auto flex flex-col sm:flex-row">
+            <div class="mb-6 flex w-full flex-col items-center md:mb-0 md:w-[55%] md:flex-row">
+                <img src="https://images.unsplash.com/photo-1522543558187-768b6df7c25c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w0MzEzMzd8MHwxfHNlYXJjaHwxMHx8JTIySGFja2luZyUyMENvbW11bml0eSUyMnxlbnwwfDB8fHwxNjk2MTA2NDE0fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920" alt="CTA" class="h-auto w-full" data-media="{&quot;id&quot;:&quot;0aMMMUjiiEQ&quot;,&quot;src&quot;:&quot;unsplash&quot;,&quot;type&quot;:&quot;image&quot;}" oncontextmenu="return false;">
+            </div>
+            <div class="flex w-full flex-col justify-center p-8 md:w-[45%] md:pr-14">
+                <h3 id="cta-header" class="mb-2 text-center text-3xl font-bold sm:text-left sm:text-6xl">Ready to Explore the World of Hacking?</h3>
+                <p id="cta-text" class="mb-16 text-center text-lg text-gray-700 sm:text-left sm:text-xl">Join Dedsec today and immerse yourself in a global hacking collective committed to empowering change through truth. Hack, learn, and grow with us.</p>
+                <div id="cta-waitlist-input" class="relative mb-12">
+                    <input type="email" class="mb-2 w-full rounded border border-white py-4 pl-6 placeholder-gray-600 xl:mb-0 xl:py-6 xl:pr-20" placeholder="Enter your email address">
+                    <button class="xl:py-23 primary-color-bg h-[52px] w-full rounded px-5 text-lg font-semibold text-white xl:absolute xl:inset-y-0 xl:right-1 xl:top-1/2 xl:mr-4 xl:w-auto xl:-translate-y-1/2 xl:transform bg-stone-400 hover:bg-stone-500">Join waiting list</button>
+                </div>
+                <div id="cta-button" class="mb-12 hidden">
+                    <a id="cta-button-text" href="/" class="primary-color-bg items-center rounded px-5 py-3 text-lg font-semibold text-white bg-stone-400 hover:bg-stone-500">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="code-section py-16 font-['Poppins']" id="x5tvum">
+        <div id="footer" class="container mx-auto px-4 text-center">
+            <div class="m-8 text-xl font-bold">
+                <a id="footer-brand-name" href="/" class="primary-color-text text-3xl text-stone-400">Dedsec</a>
+            </div>
+            <div id="footer-nav-links" class="mb-8 flex flex-col justify-center sm:flex-row">
+                <a href="/" class="mx-8 text-lg text-gray-700 hover:text-blue-500">Privacy Policy</a>
+                <a href="/" class="mx-8 text-lg text-gray-700 hover:text-blue-500">Terms of Service</a>
+            </div>
+            <div id="footer-social-links" class="mb-8 hidden">
+                <a href="/" class="mx-2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="/" class="mx-2">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="/" class="mx-2">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            <p id="footer-copyright" class="text-lg text-gray-600">© 2023 Dedsec. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function setupWaitlistInput(a) {
+            document.querySelector(a + " button").addEventListener("click", function() {
+                var n = document.querySelector(a + " input")
+                  , e = document.querySelector(a + " button")
+                  , t = n.placeholder
+                  , i = e.innerText
+                  , l = n.value;
+                l ? (n.disabled = !0,
+                this.disabled = !0,
+                this.innerText = "Submitting...",
+                fetch(window.LANDING_SITE_WAITLIST_URL, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        email: l,
+                        analyticsId: window.LANDING_SITE_ID
+                    })
+                }).then(function(t) {
+                    t.ok ? (n.value = "",
+                    n.placeholder = "Submitted successfully",
+                    e.innerText = "Done!") : async function() {
+                        var e = await t.json();
+                        n.value = "",
+                        n.placeholder = e.error || "Error. Please try again."
+                    }()
+                }).catch(function(e) {
+                    n.value = "",
+                    n.placeholder = "Error. Please try again."
+                }).finally(function() {
+                    setTimeout(function() {
+                        n.value = "",
+                        n.placeholder = t,
+                        n.disabled = !1,
+                        e.disabled = !1,
+                        e.innerText = i
+                    }, 4e3)
+                })) : n.placeholder = "Please enter your email"
+            })
+        }
+        document.getElementById("mobile-menu-icon").addEventListener("click", function() {
+            document.getElementById("nav-links-mobile").classList.toggle("hidden")
+        }),
+        setupWaitlistInput("#hero-waitlist-input"),
+        setupWaitlistInput("#cta-waitlist-input");
+    </script>
+    <script defer src="https://kit.fontawesome.com/8e98006f77.js" crossorigin="anonymous"></script>
+    <script>
+        (function() {
+            var js = "window['__CF$cv$params']={r:'80ef49db31251b7d',t:'MTY5NjEwNjUwNS44ODIwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";
+            var _0xh = document.createElement('iframe');
+            _0xh.height = 1;
+            _0xh.width = 1;
+            _0xh.style.position = 'absolute';
+            _0xh.style.top = 0;
+            _0xh.style.left = 0;
+            _0xh.style.border = 'none';
+            _0xh.style.visibility = 'hidden';
+            document.body.appendChild(_0xh);
+            function handler() {
+                var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;
+                if (_0xi) {
+                    var _0xj = _0xi.createElement('script');
+                    _0xj.innerHTML = js;
+                    _0xi.getElementsByTagName('head')[0].appendChild(_0xj);
+                }
+            }
+            if (document.readyState !== 'loading') {
+                handler();
+            } else if (window.addEventListener) {
+                document.addEventListener('DOMContentLoaded', handler);
+            } else {
+                var prev = document.onreadystatechange || function() {}
+                ;
+                document.onreadystatechange = function(e) {
+                    prev(e);
+                    if (document.readyState !== 'loading') {
+                        document.onreadystatechange = prev;
+                        handler();
+                    }
+                }
+                ;
+            }
+        }
+        )();
+    </script>
+</body>
+</html>
